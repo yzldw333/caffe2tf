@@ -4,9 +4,9 @@ import tensorflow as tf
 import pickle
 import csv
 
-def caffe2tf_step1(proto,weights):
+def caffe2tf_step1(proto,weights,csvname):
     net = caffe.Net(proto,weights,caffe.TEST)
-    f = open('map4.csv','w')
+    f = open(csvname,'w')
     writer = csv.writer(f)
     print('This is all net params from caffe, remember names carefully!')
 
@@ -14,6 +14,7 @@ def caffe2tf_step1(proto,weights):
     varlist = tf.trainable_variables()
     gList = tf.global_variables()
     for var in gList:
+        # batch norm layer depends what you named in tf.
         if 'mu' in var.name or 'sigma' in var.name and var not in varlist:
             varlist.append(var)
 
@@ -29,12 +30,6 @@ def caffe2tf_step2(proto,weights,csvname,pklname):
     f = open(csvname,'r')
     reader = csv.reader(f)
     lst = list(reader)
-    varlist = tf.trainable_variables()
-    gList = tf.global_variables()
-    for var in gList:
-        if 'mu' in var.name or 'sigma' in var.name and var not in varlist:
-            varlist.append(var)
-
     net = caffe.Net(proto,weights,caffe.TEST)
     dct = {}
     for row in lst:
@@ -75,7 +70,7 @@ if __name__=='__main__':
         model.generate_model()
 
 
-    #caffe2tf_step1('resnet_18_face_exp_test9.prototxt','solver3_drop9_iter_856000.caffemodel')
+    #caffe2tf_step1('resnet_18_face_exp_test9.prototxt','solver3_drop9_iter_856000.caffemodel','map_.csv')
     caffe2tf_step2('resnet_18_face_exp_test9.prototxt','solver3_drop9_iter_856000.caffemodel','map_.csv','drop9.pkl')
 
 

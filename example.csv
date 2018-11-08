@@ -1,0 +1,226 @@
+model/bn0/beta:0,origindata_scale 1
+model/bn0/gamma:0,origindata_scale 0
+model/conv0/weights:0,
+model/bn1/beta:0,
+model/bn1/gamma:0,
+model/p_re_lu/alpha:0,
+model/conv1/weights:0,
+model/bn2/beta:0,
+model/bn2/gamma:0,
+model/p_re_lu_1/alpha:0,
+model/conv1_2/weights:0,
+model/block2a/bn_1/beta:0,scale_conv1_ 1
+model/block2a/bn_1/gamma:0,scale_conv1_ 0
+model/block2a/p_re_lu/alpha:0,conv1_prelu 0
+model/block2a/conv_1/weights:0,res2a_branch2a_ 0
+model/block2a/bn_2/beta:0,scale2a_branch2a 1
+model/block2a/bn_2/gamma:0,scale2a_branch2a 0
+model/block2a/p_re_lu_1/alpha:0,res2a_branch2a_prelu_ 0
+model/block2a/conv_2/weights:0,res2a_branch2b 0
+model/block2b/bn_1/beta:0,scale_res2a 1
+model/block2b/bn_1/gamma:0,scale_res2a 0
+model/block2b/p_re_lu/alpha:0,res2a_prelu 0
+model/block2b/conv_1/weights:0,
+model/block2b/bn_2/beta:0,scale_res2a 1
+model/block2b/bn_2/gamma:0,scale_res2a 0
+model/block2b/p_re_lu_1/alpha:0,res2a_prelu 0
+model/block2b/conv_2/weights:0,res2b_branch2a 0
+model/block2b/bn_3/beta:0,scale2b_branch2a 1
+model/block2b/bn_3/gamma:0,scale2b_branch2a 0
+model/block2b/p_re_lu_2/alpha:0,res2b_branch2a_prelu 0
+model/block2b/conv_3/weights:0,
+model/block2b_2/bn_1/beta:0,scale_res2a 1
+model/block2b_2/bn_1/gamma:0,scale_res2a 0
+model/block2b_2/p_re_lu/alpha:0,res2a_prelu 0
+model/block2b_2/conv_1/weights:0,
+model/block2b_2/bn_2/beta:0,scale_res2a 1
+model/block2b_2/bn_2/gamma:0,scale_res2a 0
+model/block2b_2/p_re_lu_1/alpha:0,res2a_prelu 0
+model/block2b_2/conv_2/weights:0,res2b_branch2a 0
+model/block2b_2/bn_3/beta:0,scale2b_branch2a 1
+model/block2b_2/bn_3/gamma:0,scale2b_branch2a 0
+model/block2b_2/p_re_lu_2/alpha:0,res2b_branch2a_prelu 0
+model/block2b_2/conv_3/weights:0,
+model/block3a/bn_1/beta:0,scale_res2b 1
+model/block3a/bn_1/gamma:0,scale_res2b 0
+model/block3a/p_re_lu/alpha:0,res2b_prelu 0
+model/block3a/conv_1/weights:0,res3a_branch2a_ 0
+model/block3a/bn_2/beta:0,scale3a_branch2a_ 1
+model/block3a/bn_2/gamma:0,scale3a_branch2a_ 0
+model/block3a/p_re_lu_1/alpha:0,res3a_branch2a_prelu_ 0
+model/block3a/conv_2/weights:0,res3a_branch2b_ 0
+model/block3b/bn_1/beta:0,scale_res3a 1
+model/block3b/bn_1/gamma:0,scale_res3a 0
+model/block3b/p_re_lu/alpha:0,res3a_prelu 0
+model/block3b/conv_1/weights:0,
+model/block3b/bn_2/beta:0,scale_res3a 1
+model/block3b/bn_2/gamma:0,scale_res3a 0
+model/block3b/p_re_lu_1/alpha:0,res3a_prelu 0
+model/block3b/conv_2/weights:0,res3b_branch2a 0
+model/block3b/bn_3/beta:0,scale3b_branch2a 1
+model/block3b/bn_3/gamma:0,scale3b_branch2a 0
+model/block3b/p_re_lu_2/alpha:0,res3b_branch2a_prelu 0
+model/block3b/conv_3/weights:0,
+model/block3b_2/bn_1/beta:0,scale_res3a 1
+model/block3b_2/bn_1/gamma:0,scale_res3a 0
+model/block3b_2/p_re_lu/alpha:0,res3a_prelu 0
+model/block3b_2/conv_1/weights:0,
+model/block3b_2/bn_2/beta:0,scale_res3a 1
+model/block3b_2/bn_2/gamma:0,scale_res3a 0
+model/block3b_2/p_re_lu_1/alpha:0,res3a_prelu 0
+model/block3b_2/conv_2/weights:0,res3b_branch2a 0
+model/block3b_2/bn_3/beta:0,scale3b_branch2a 1
+model/block3b_2/bn_3/gamma:0,scale3b_branch2a 0
+model/block3b_2/p_re_lu_2/alpha:0,res3b_branch2a_prelu 0
+model/block3b_2/conv_3/weights:0,
+model/block4a/bn_1/beta:0,scale_res3b 1
+model/block4a/bn_1/gamma:0,scale_res3b 0
+model/block4a/p_re_lu/alpha:0,res3b_prelu 0
+model/block4a/conv_1/weights:0,res4a_branch2a_ 0
+model/block4a/bn_2/beta:0,scale4a_branch2a_ 1
+model/block4a/bn_2/gamma:0,scale4a_branch2a_ 0
+model/block4a/p_re_lu_1/alpha:0,res4a_branch2a_prelu_ 0
+model/block4a/conv_2/weights:0,res4a_branch2b_ 0
+model/block4b/bn_1/beta:0,scale_res4a 1
+model/block4b/bn_1/gamma:0,scale_res4a 0
+model/block4b/p_re_lu/alpha:0,res4a_prelu 0
+model/block4b/conv_1/weights:0,
+model/block4b/bn_2/beta:0,scale_res4a 1
+model/block4b/bn_2/gamma:0,scale_res4a 0
+model/block4b/p_re_lu_1/alpha:0,res4a_prelu 0
+model/block4b/conv_2/weights:0,res4b_branch2a 0
+model/block4b/bn_3/beta:0,scale4b_branch2a 1
+model/block4b/bn_3/gamma:0,scale4b_branch2a 0
+model/block4b/p_re_lu_2/alpha:0,res4b_branch2a_prelu 0
+model/block4b/conv_3/weights:0,
+model/block4b_2/bn_1/beta:0,scale_res4a 1
+model/block4b_2/bn_1/gamma:0,scale_res4a 0
+model/block4b_2/p_re_lu/alpha:0,res4a_prelu 0
+model/block4b_2/conv_1/weights:0,
+model/block4b_2/bn_2/beta:0,scale_res4a 1
+model/block4b_2/bn_2/gamma:0,scale_res4a 0
+model/block4b_2/p_re_lu_1/alpha:0,res4a_prelu 0
+model/block4b_2/conv_2/weights:0,res4b_branch2a 0
+model/block4b_2/bn_3/beta:0,scale4b_branch2a 1
+model/block4b_2/bn_3/gamma:0,scale4b_branch2a 0
+model/block4b_2/p_re_lu_2/alpha:0,res4b_branch2a_prelu 0
+model/block4b_2/conv_3/weights:0,
+model/block5a/bn_1/beta:0,scale_res4b 1
+model/block5a/bn_1/gamma:0,scale_res4b 0
+model/block5a/p_re_lu/alpha:0,res4b_prelu 0
+model/block5a/conv_1/weights:0,res5a_branch2a_ 0
+model/block5a/bn_2/beta:0,scale5a_branch2a_ 1
+model/block5a/bn_2/gamma:0,scale5a_branch2a_ 0
+model/block5a/p_re_lu_1/alpha:0,res5a_branch2a_prelu_ 0
+model/block5a/conv_2/weights:0,res5a_branch2b_ 0
+model/block5b/bn_1/beta:0,scale_res5a 1
+model/block5b/bn_1/gamma:0,scale_res5a 0
+model/block5b/p_re_lu/alpha:0,res5a_prelu 0
+model/block5b/conv_1/weights:0,
+model/block5b/bn_2/beta:0,scale_res5a 1
+model/block5b/bn_2/gamma:0,scale_res5a 0
+model/block5b/p_re_lu_1/alpha:0,res5a_prelu 0
+model/block5b/conv_2/weights:0,res5b_branch2a 0
+model/block5b/bn_3/beta:0,scale5b_branch2a 1
+model/block5b/bn_3/gamma:0,scale5b_branch2a 0
+model/block5b/p_re_lu_2/alpha:0,res5b_branch2a_prelu 0
+model/block5b/conv_3/weights:0,
+model/block5b_2/bn_1/beta:0,scale_res5a 1
+model/block5b_2/bn_1/gamma:0,scale_res5a 0
+model/block5b_2/p_re_lu/alpha:0,res5a_prelu 0
+model/block5b_2/conv_1/weights:0,
+model/block5b_2/bn_2/beta:0,scale_res5a 1
+model/block5b_2/bn_2/gamma:0,scale_res5a 0
+model/block5b_2/p_re_lu_1/alpha:0,res5a_prelu 0
+model/block5b_2/conv_2/weights:0,res5b_branch2a 0
+model/block5b_2/bn_3/beta:0,scale5b_branch2a 1
+model/block5b_2/bn_3/gamma:0,scale5b_branch2a 0
+model/block5b_2/p_re_lu_2/alpha:0,res5b_branch2a_prelu 0
+model/block5b_2/conv_3/weights:0,
+model/pool5/bn/beta:0,scale_res5b 1
+model/pool5/bn/gamma:0,scale_res5b 0
+model/pool5/p_re_lu/alpha:0,res5b_prelu 0
+model/fc9_1/weights:0,fc9_1 0
+model/fc9_1/bias:0,fc9_1 1
+model/fc9_2/weights:0,fc9_2 0
+model/fc9_2/bias:0,fc9_2 1
+model/fc48_1/weights:0,fc48_1 0
+model/fc48_1/bias:0,fc48_1 1
+model/fc48_2/weights:0,fc48_2 0
+model/fc48_2/bias:0,fc48_2 1
+model/fc100_1/weights:0,fc100_1 0
+model/fc100_1/bias:0,fc100_1 1
+model/fc100_2/weights:0,fc100_2 0
+model/fc100_2/bias:0,fc100_2 1
+model/bn0/mu:0,origindata_bn 0
+model/bn0/sigma:0,origindata_bn 1
+model/bn1/mu:0,
+model/bn1/sigma:0,
+model/bn2/mu:0,
+model/bn2/sigma:0,
+model/block2a/bn_1/mu:0,bn_conv1_ 0
+model/block2a/bn_1/sigma:0,bn_conv1_ 1
+model/block2a/bn_2/mu:0,bn2a_branch2a 0
+model/block2a/bn_2/sigma:0,bn2a_branch2a 1
+model/block2b/bn_1/mu:0,bn_res2a 0
+model/block2b/bn_1/sigma:0,bn_res2a 1
+model/block2b/bn_2/mu:0,bn_res2a 0
+model/block2b/bn_2/sigma:0,bn_res2a 1
+model/block2b/bn_3/mu:0,bn2b_branch2a 0
+model/block2b/bn_3/sigma:0,bn2b_branch2a 1
+model/block2b_2/bn_1/mu:0,bn_res2a 0
+model/block2b_2/bn_1/sigma:0,bn_res2a 1
+model/block2b_2/bn_2/mu:0,bn_res2a 0
+model/block2b_2/bn_2/sigma:0,bn_res2a 1
+model/block2b_2/bn_3/mu:0,bn2b_branch2a 0
+model/block2b_2/bn_3/sigma:0,bn2b_branch2a 1
+model/block3a/bn_1/mu:0,bn_res2b 0
+model/block3a/bn_1/sigma:0,bn_res2b 1
+model/block3a/bn_2/mu:0,bn3a_branch2a_ 0
+model/block3a/bn_2/sigma:0,bn3a_branch2a_ 1
+model/block3b/bn_1/mu:0,bn_res3a 0
+model/block3b/bn_1/sigma:0,bn_res3a 1
+model/block3b/bn_2/mu:0,bn_res3a 0
+model/block3b/bn_2/sigma:0,bn_res3a 1
+model/block3b/bn_3/mu:0,bn3b_branch2a 0
+model/block3b/bn_3/sigma:0,bn3b_branch2a 1
+model/block3b_2/bn_1/mu:0,bn_res3a 0
+model/block3b_2/bn_1/sigma:0,bn_res3a 1
+model/block3b_2/bn_2/mu:0,bn_res3a 0
+model/block3b_2/bn_2/sigma:0,bn_res3a 1
+model/block3b_2/bn_3/mu:0,bn3b_branch2a 0
+model/block3b_2/bn_3/sigma:0,bn3b_branch2a 1
+model/block4a/bn_1/mu:0,bn_res3b 0
+model/block4a/bn_1/sigma:0,bn_res3b 1
+model/block4a/bn_2/mu:0,bn4a_branch2a_ 0
+model/block4a/bn_2/sigma:0,bn4a_branch2a_ 1
+model/block4b/bn_1/mu:0,bn_res4a 0
+model/block4b/bn_1/sigma:0,bn_res4a 1
+model/block4b/bn_2/mu:0,bn_res4a 0
+model/block4b/bn_2/sigma:0,bn_res4a 1
+model/block4b/bn_3/mu:0,bn4b_branch2a 0
+model/block4b/bn_3/sigma:0,bn4b_branch2a 1
+model/block4b_2/bn_1/mu:0,bn_res4a 0
+model/block4b_2/bn_1/sigma:0,bn_res4a 1
+model/block4b_2/bn_2/mu:0,bn_res4a 0
+model/block4b_2/bn_2/sigma:0,bn_res4a 1
+model/block4b_2/bn_3/mu:0,bn4b_branch2a 0
+model/block4b_2/bn_3/sigma:0,bn4b_branch2a 1
+model/block5a/bn_1/mu:0,bn_res4b 0
+model/block5a/bn_1/sigma:0,bn_res4b 1
+model/block5a/bn_2/mu:0,bn5a_branch2a_ 0
+model/block5a/bn_2/sigma:0,bn5a_branch2a_ 1
+model/block5b/bn_1/mu:0,bn_res5a 0
+model/block5b/bn_1/sigma:0,bn_res5a 1
+model/block5b/bn_2/mu:0,bn_res5a 0
+model/block5b/bn_2/sigma:0,bn_res5a 1
+model/block5b/bn_3/mu:0,bn5b_branch2a 0
+model/block5b/bn_3/sigma:0,bn5b_branch2a 1
+model/block5b_2/bn_1/mu:0,bn_res5a 0
+model/block5b_2/bn_1/sigma:0,bn_res5a 1
+model/block5b_2/bn_2/mu:0,bn_res5a 0
+model/block5b_2/bn_2/sigma:0,bn_res5a 1
+model/block5b_2/bn_3/mu:0,bn5b_branch2a 0
+model/block5b_2/bn_3/sigma:0,bn5b_branch2a 1
+model/pool5/bn/mu:0,bn_res5b 0
+model/pool5/bn/sigma:0,bn_res5b 1
