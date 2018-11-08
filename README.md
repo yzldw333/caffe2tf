@@ -12,3 +12,8 @@ cffe2tf half-auto conversion tool
     - run step2 function to generate pkl file.
 3. load pkl in your training scripts!
 
+# Support.
+    normal CNN parameter, conv2d,prelu,fc,bn
+    depthwise conv, conv3d not tested, if you use them, try modify my step2 function
+
+
